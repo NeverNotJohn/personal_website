@@ -14,10 +14,7 @@
 }
 
 #name {
-    margin: 8px;
-    font-size: xx-large;
-    margin: 10px;
-    font-family: inkFont;
+    font-size: 55px;
     font-weight: bold;
 }
 
@@ -63,10 +60,13 @@ a {
     background-attachment: fixed;
     background-position: center;
     background-position: top;
-    height: 850px;
+    height: 900px;
     background-size: cover;
     color: white;
-    padding: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 260px;
+    
 }
 
 .small_img {
@@ -84,7 +84,7 @@ a {
   }
 
 h1 {
-    font-size: 85px;
+    font-size: 50px;
     margin-bottom: 0px;
     font-family: fancy;
 }
@@ -108,4 +108,20 @@ p {
     justify-content: center;
     margin-left: auto;
     margin-right:auto;
-  }
+}
+
+.vertical-center {
+margin: 0;
+position: absolute;
+top: 50%;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+
+.text-right {
+    text-align: right;
+}
+
+.code {
+    font-size: 25px;
+}
