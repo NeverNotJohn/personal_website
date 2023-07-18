@@ -148,7 +148,7 @@ body {
 /*  CLASSES */
 
 .block {
-
+ 
 }
 
 .sub-block {
@@ -167,10 +167,17 @@ body {
     background-color: var(--sob);
 }
 
+.left-half {
+    width: 49%;
+    float:left; /* add this */
+    border-right: 3px solid rgba(76, 79, 87, 0.488);;
+    padding-right: 5%;
+    text-align: center;
+}
 
+.right-half {
+    padding-left: 5%;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
 
 /*  IDs */
-
-#tut {
-
-}
