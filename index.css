@@ -179,7 +179,7 @@ body {
     overflow: hidden; /* if you don't want #second to wrap below #first */
 }
 
-.slide {
+.slide-start {
     display: none;
 }
 
