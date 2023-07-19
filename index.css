@@ -93,11 +93,6 @@ h6 {
     font-weight: 365;
 }
 
-@media (min-width: 1200px) {
-    .container{
-        max-width: 600px;
-    }
-}
 
 p {
     font-family: mainFont;
