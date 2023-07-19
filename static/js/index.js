@@ -1,16 +1,10 @@
-// Scroll down: 
+// Slide Starts
 
 $(document).ready(function() {
 
-    var elementPos = $('.slide-start').offset().top;
-
-    alert('Vertical Position: ' + parseInt(elementPos));
-
-    var time = 1000 + (elementPos * 2000);
-
-    var slideElement = $('.slide-start');
-    slideElement.slideDown(time);
-
+    $('.slide-1').slideDown(500);
+    $('.slide-2').slideDown(1200);
+    $('.slide-3').slideDown(1300);
 
 });
 
@@ -20,13 +14,11 @@ $(document).ready(function() {
 
     $(window).scroll(function() {
 
-        var slideElement = $('.slide');
-
         var scrollPos = $(window).scrollTop();
         var elementPos = $('.slide').offset().top;
 
         if (scrollPos > elementPos) {
-            slideElement.slideDown(1000);
+            $('.slide').slideDown(1000);
         } 
 
     });
