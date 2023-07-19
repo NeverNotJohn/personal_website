@@ -136,6 +136,7 @@ transform: translateY(-50%);
 
 body {
     background-color: var(--main);
+    height: 10000px;
 }
 
 

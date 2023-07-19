@@ -15,7 +15,7 @@ $(document).ready(function() {
     $(window).scroll(function() {
 
         var scrollPos = $(window).scrollTop();
-        var elementPos = $('.slide').offset().top;
+        var elementPos = $('.slide').offset().top + 350;
 
         if (scrollPos > elementPos) {
             $('.slide').slideDown(1000);
