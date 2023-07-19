@@ -2,8 +2,15 @@
 
 $(document).ready(function() {
 
+    var elementPos = $('.slide-start').offset().top;
+
+    alert('Vertical Position: ' + parseInt(elementPos));
+
+    var time = 1000 + (elementPos * 2000);
+
     var slideElement = $('.slide-start');
-    slideElement.slideDown();
+    slideElement.slideDown(time);
+
 
 });
 
