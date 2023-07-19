@@ -18,7 +18,7 @@ $(document).ready(function() {
         var elementPos = $('.slide').offset().top + 350;
 
         if (scrollPos > elementPos) {
-            $('.slide').slideDown(1000);
+            $('.slide').slideDown(700);
         } 
 
     });
