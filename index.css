@@ -140,7 +140,7 @@ body {
 
 
 
-/*  CLASSES */
+/*   CLASSES   */
 
 .block {
     height: auto;
@@ -179,8 +179,12 @@ body {
     overflow: hidden; /* if you don't want #second to wrap below #first */
 }
 
+.slide {
+    display: none;
+}
+
 .slide-start {
     display: none;
 }
 
-/*  IDs */
+/*   IDs   */

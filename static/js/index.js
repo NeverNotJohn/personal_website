@@ -2,20 +2,25 @@
 
 $(document).ready(function() {
 
-    var slideElement = $('.slide-start');                      //slide one start  
-    slideElement.slideDown(1000);
+    var slideElement = $('.slide-start')
+
+});
+
+// Slide 
+
+$(document).ready(function() {
 
     $(window).scroll(function() {
-      var scrollPos = $(window).scrollTop();
-      var slideElement = $('.slide-start');
 
-      if (scrollPos > 1) {
-        slideElement.slideDown(1000);
-      } else {
-        slideElement.slideUp(1000);
-      }
+        var slideElement = $('.slide');
+
+        var scrollPos = $(window).scrollTop();
+        var elementPos = $('.slide').offset().top;
+
+        if (scrollPos > elementPos) {
+            slideElement.slideDown(1000);
+        } 
+
     });
 
-
-
-  });
+});
