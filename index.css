@@ -54,12 +54,12 @@ a {
 
 .big_image {
     background:
-    linear-gradient(to bottom, rgba(49, 51, 56, 0.3), rgba(30, 31, 34, 0.95)),
-    url('static/images/bg.jpg');
+    linear-gradient(to bottom, rgb(30, 30, 30), rgba(30, 31, 34, 0.95));
+    /*url('static/images/drafr2.png');*/
+    background-position: top;
+    background-position: left;
     width: 100%;
     background-attachment: fixed;
-    background-position: center;
-    background-position: top;
     height: 900px;
     background-size: cover;
     color: white;
