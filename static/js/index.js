@@ -2,7 +2,8 @@
 
 $(document).ready(function() {
 
-    var slideElement = $('.slide-start')
+    var slideElement = $('.slide-start');
+    slideElement.slideDown();
 
 });
 
